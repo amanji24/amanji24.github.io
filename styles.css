@@ -1,0 +1,61 @@
+html {
+    background: #cccccc;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background: #d7e9e5;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #000000;
+    font-family: "Arial", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+    -webkit-animation: colorchange 42s infinite; 
+    animation: colorchange 42s infinite;
+    opacity: 0.86;
+}
+
+@-webkit-keyframes colorchange {
+     0%  {background: #d7e9e5;}
+    20%  {background: #5EA0F3;}
+    40%  {background: #E78AF4;}
+    60%  {background: #F4948A;}
+    80% {background: #C4F48A;}
+    100% {background: #d7e9e5;}
+}
+@keyframes colorchange {
+     0%  {background: #d7e9e5;}
+    20%  {background: #5EA0F3;}
+    40%  {background: #E78AF4;}
+    60%  {background: #F4948A;}
+    80% {background: #C4F48A;}
+    100% {background: #d7e9e5;}
+}
+
+p {
+    color: #545454;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.coolButton {
+  border: none;
+  background-color: blue;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 12px;
+    color: white;
+}
+
+/* Darker background on mouse-over */
+.coolButton:hover {
+  background-color: navy;
+}

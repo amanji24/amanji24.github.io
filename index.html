@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>*Insert Title Here*</title>
+        <link href="styles.css" rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+        
+            table {
+                border-collapse: collapse;
+            }
+            tr,th {
+                padding: 7.5px;
+                text-align: center;
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+    
+        <center><br>
+        
+        <div id='time'></div>
+        
+        <h1>Welcome</h1>
+        <p>Created by Adam Manji</p></center>
+        
+        <br><hr><br>
+        
+        <center><button class='coolButton' onclick='about()'><h2>About</h2></button>
+        <div id='aboutDiv' style='display: none; text-align: left;'>
+        <br>
+        <p>This is an example web page. It has some CSS, or style, and contains some cool HTML features such as links, buttons, etc.</p>
+        <p>This page was created to demonstrate the abilities of simple/basic HTML and CSS and how they can make a cool looking webpage. </p>
+        </div></center>
+        
+        <br><br>
+        
+        <center>
+            
+        <button class='coolButton' onclick='alert("Welcome to my page! This button is using JS to send an alert, but the JS is inline, so hopefully nobody notices.")'>Hover && Click</button>
+        
+        <br><br><hr><br>
+        
+        This is a [bad] table: <br><br>
+        
+        <table>
+          
+        <th>Data</th><th>More data</th><th>...</th>
+        <tr><td>This</td><td>table</td><td>can</td></tr>
+        <tr><td>store</td><td>data</td><td>:)</td></tr>
+        
+        </table>
+            
+        <br><hr><br>
+            
+        <p>Mobile Compatible</p>
+            
+        </center>
+        
+        <script>
+        
+            aboutCount = 0;
+            
+        function about() {
+           
+            aboutDiv = document.getElementById('aboutDiv');
+            
+            if (aboutCount % 2 == 0) {
+                aboutDiv.style.display = 'block';
+            } else {
+                aboutDiv.style.display = 'none';
+            }
+            
+            aboutCount++;
+            
+        }
+            
+        function setTime() {
+            
+            timeDiv = document.getElementById('time');
+            time = new Date().toString();
+            timeDiv.innerHTML = "<p>" + time.substring(4,15) + " || " + time.substring(16,24) + "</p>";
+            
+        }
+            
+        setTime();
+            
+        setInterval(setTime,1000);
+        
+        </script>
+        
+    </body>
+
+</html>
