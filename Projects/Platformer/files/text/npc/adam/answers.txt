@@ -1,0 +1,72 @@
+@index 1
+3
+Welcome, traveler,
+To Manjiland.
+There is much to
+explore and ...
+There are many
+people to meet.
+Not long ago, this
+land thrived, ...
+But recently it
+has not been
+doing so well.
+*
+
+@index 2
+3
+An ancient evil,
+thought to have
+been nothing but
+a myth has ...
+Recently awoken.
+There are still
+villages and
+people ...
+Around the land.
+But, nobody
+dares go near
+the castle.
+
+@index 3
+2
+My name is
+Adam. I live in
+Manjiland and
+have been...
+Searching for
+a hero like
+yourself to
+help us.
+
+@index 4
+1
+I really like
+milk and
+cookies.
+*
+
+@index 5
+2
+I don't think
+I'd be of
+much use to
+you, but ...
+What I can
+offer you is
+knowledge.
+*
+
+@index 6
+1
+You should
+start your
+journey by
+exploring ...
+
+@index 7
+1
+Not interested
+at the moment.
+*
+*

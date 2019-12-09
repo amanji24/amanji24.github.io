@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>Adam Manji: Projects - Platformer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+        
+    </head>
+    
+    <body style="background-color: aliceblue">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+          <a class="navbar-brand" href="index.html">Adam Manji</a>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="jartest.html">Jar Test</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="help.html">Help</a>
+                </div>
+              </li>
+              <li class="nav-item">
+              </li>
+            </ul>
+
+        </nav>
+        
+        <div id='header' class="container" align = center style="margin-top: 100px">
+        
+            <div id='time'></div>
+        
+            <h1 class="text-primary">Platformer</h1>
+        
+        </div>
+                
+        <br><hr><br>
+        
+        <div id='MAIN' class="container">
+            
+            <br>
+        
+            <object type="application/x-java-applet" height="1200" width="800">
+                <param name="code" value="Game" />
+                <param name="archive" value="Platformer.jar" />
+                Applet failed to run.  No Java plug-in was found.
+            </object>
+            
+            <br><br>
+            
+            <p>NOTE: You must click the screen first</p>
+            <h3>Controls</h3><br>
+            <p>Left and right arrows to move. Down arrow to intimidate. Up arrow to jump.</p>
+            <p>C to attack with sword. D to shoot arrow. S to interact. A to open inventory.</p>
+            <p>Inventory controls: Up and down to scroll, space to enter, left to navigate back.</p>
+        
+        </div>
+            
+            <br><br><hr><br>
+        
+        <div id='footer' align = center  style="margin-bottom: 25px">
+         
+            <p>Created by Adam Manji</p>
+            
+            <p><small><a href="index.html">Home</a> | <a href="jartest.html">Jar Test</a></small><br></p>
+            
+            <small>Mobile Compatible</small>
+                
+        </div>
+        
+        <script>
+        
+            aboutCount = 0;
+            
+            function setTime() {
+            
+                timeDiv = document.getElementById('time');
+                time = new Date().toString();
+                timeDiv.innerHTML = "<p>" + time.substring(16,24) + " | " + time.substring(4,15) + "</p>";
+            
+            }
+            
+            setTime();
+
+            setInterval(setTime,1000);
+            
+        </script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+@index 1
+2
+Beets are the
+best item you
+can purchase.
+Well...
+Beets, bears,
+and Battlestar
+Galactica.
+*
+
+@index 2
+2
+You're in the
+Forsaken Forest.
+This place is
+home to many...
+Wild being and
+there is said to
+Be a secret key
+Hidden somewhere.
+
+@index 3
+1
+My name is Dwight.
+Why is everyone
+calling me Dwayne?
+*
