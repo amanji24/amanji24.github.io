@@ -19,19 +19,19 @@
     <body style="background-color: aliceblue">
     
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-          <a class="navbar-brand" href="index.html">Adam Manji</a>
+          <a class="navbar-brand" href="https://adammanji.com">Adam Manji</a>
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Menu
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" href="jartest.html">Jar Test</a>
+                  <a class="dropdown-item" href="https://adammanji.com">Home</a>
+                  <a class="dropdown-item" href="https://adammanji.com/jartest.html">Jar Test</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/Projects">Projects</a>
+                  <a class="dropdown-item" href="https://adammanji.com/Projects/">Projects</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="help.html">Help</a>
+                  <a class="dropdown-item" href="https://adammanji.com/help.html">Help</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -62,7 +62,7 @@
          
             <p>Created by Adam Manji</p>
             
-            <p><small><a href="index.html">Home</a> | <a href="/Projects">Projects</a></small><br></p>
+            <p><small><a href="https://adammanji.com">Home</a> | <a href="https://adammanji.com/Projects/">Projects</a></small><br></p>
             
             <small>Mobile Compatible</small>
                 
