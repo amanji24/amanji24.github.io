@@ -1,4 +1,0 @@
-Talk
-Inventory
-Command
-Exit
